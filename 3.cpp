@@ -84,14 +84,19 @@ void DrawHeadlessBear (int x, int y, double zoomX, double zoomY, double SzTail, 
     txEllipse (x +  20 * zoomX, y -     zoomY * (2 + FrLegs), x + 45 * zoomX, y + zoomY * (88 - FrLegs));
     txEllipse (x +  70 * zoomX, y +     zoomY * (2 - FrLegs), x + 95 * zoomX, y + zoomY * (88 - FrLegs));
 
-    txSetFillColor (RGB (255, 255, 255));
 
-    txCircle (x +  70 * zoomX, y -  82 * zoomY, 10 * SzTail);
+    txSetFillColor (RGB (255, 255, 255));
+    txCircle (x +  70 * zoomX, y -  82 * zoomY, 10 * SzEye);
+
+    txSetFillColor (TX_GREEN);
     txCircle (x + 110 * zoomX, y -  82 * zoomY, 10 * SzEye);
 
     txSetFillColor (RGB (128, 64, 0));
 
-    txCircle (x - 100 * zoomX, y -  27 * zoomY, 10 * SzEye);
+    txSetFillColor (TX_PINK);
+    txCircle (x - 95 * zoomX, y -  23 * zoomY, 10 * SzTail);
+
+    txSetFillColor (RGB (128, 64, 0));
     txCircle (x +  50 * zoomX, y -  92 * zoomY, 10 * SzEar);
     txCircle (x + 115 * zoomX, y - 107 * zoomY, 10 * SzEar);
     }
@@ -135,7 +140,7 @@ void DrawCloud (int x, int y, double zoom)
     txEllipse (x-95*zoom, y-53*zoom, x+220*zoom, y+20*zoom);
     }
 
-void MoveCloud()          dsfsdgfdf m8u65r hdfc
+void MoveCloud()
     {
 
     int x = 100;
