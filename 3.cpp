@@ -1,7 +1,7 @@
 
 #include "TXLib.h"
 
-//{ Прототипы
+//{ Прототипы 1
 
 void DrawHeadlessBear (int x, int y, double zoomX, double zoomY, double STail, double SEye, double SEar, double FrLegs);  // Прототип функции DrawHeadlessBear
 
