@@ -135,7 +135,7 @@ void DrawCloud (int x, int y, double zoom)
     txEllipse (x-95*zoom, y-53*zoom, x+220*zoom, y+20*zoom);
     }
 
-void MoveCloud()
+void MoveCloud()          dsfsdgfdf m8u65r hdfc
     {
 
     int x = 100;
